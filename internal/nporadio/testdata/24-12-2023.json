@@ -1,0 +1,86 @@
+{
+  "pageProps": {
+    "trackPlays": [
+      {
+        "id": "b46d57c0-88cc-4fda-be3a-e947f50c519a",
+        "artist": "Jose Feliciano",
+        "track": "FELIZ NAVIDAD",
+        "time": "19:54"
+      },
+      {
+        "id": "a239d4f9-9533-4471-bdde-af2f8e3a8fe0",
+        "artist": "La Fuente",
+        "track": "I Want You",
+        "time": "19:52"
+      },
+      {
+        "id": "6a847684-b889-4d63-abe6-cd1057803142",
+        "artist": "René Froger",
+        "track": "Alles Kan Een Mens Gelukkig Maken",
+        "time": "19:49"
+      },
+      {
+        "id": "6f487ebe-0821-46e2-8603-6406d21702c8",
+        "artist": "Blanks",
+        "track": "What You Got (Ayo)",
+        "time": "19:45"
+      },
+      {
+        "id": "56026cf6-4604-44de-adea-4cdbabbe5a89",
+        "artist": "Anna-Rose Clayton",
+        "track": "New Me (Jaimy Promo Versie)",
+        "time": "19:42"
+      },
+      {
+        "id": "b0fef63a-dfde-4484-ae86-cb6742483f68",
+        "artist": "De Staat",
+        "track": "Who's Gonna Be The Goat",
+        "time": "19:38"
+      },
+      {
+        "id": "14a5a473-7820-4b50-b75f-3cb873e7ccaa",
+        "artist": "Coldplay",
+        "track": "Fix You",
+        "time": "19:33"
+      },
+      {
+        "id": "651cc5b7-72f6-45b3-b64e-17caddedff5c",
+        "artist": "Chipz",
+        "track": "1001 Arabian Nights",
+        "time": "19:28"
+      },
+      {
+        "id": "ec61cde5-e7e0-487a-a44a-e82b04a8c7c2",
+        "artist": "Nothing But Thieves",
+        "track": "Overcome",
+        "time": "19:23"
+      },
+      {
+        "id": "5b24f0b8-f788-4b40-a6c2-e9941558f7d4",
+        "artist": "Bennett",
+        "track": "Vois sur ton chemin (Techno Mix)",
+        "time": "19:21"
+      },
+      {
+        "id": "80980cf9-025c-4f60-921f-089ab40dfe39",
+        "artist": "Frank Boeijen Groep",
+        "track": "Kronenburg Park",
+        "time": "19:16"
+      },
+      {
+        "id": "19d33565-537b-44f1-8f13-00ce9e331f0c",
+        "artist": "Goldband",
+        "track": "Noodgeval",
+        "time": "19:12"
+      }
+    ],
+    "initialValues": {
+      "page": 5,
+      "date": "24-12-2023"
+    },
+    "pagination": {
+      "currentPage": 5,
+      "maxPage": 19
+    }
+  }
+}

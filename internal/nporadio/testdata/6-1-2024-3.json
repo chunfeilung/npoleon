@@ -1,0 +1,12 @@
+{
+  "pageProps": {
+    "initialValues": {
+      "date": "06-01-2024"
+    },
+    "pagination": {
+      "currentPage": 3,
+      "maxPage": 1
+    },
+    "trackPlays": []
+  }
+}

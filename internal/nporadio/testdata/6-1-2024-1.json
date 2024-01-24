@@ -1,0 +1,31 @@
+{
+  "pageProps": {
+    "initialValues": {
+      "date": "06-01-2024"
+    },
+    "pagination": {
+      "currentPage": 1,
+      "maxPage": 2
+    },
+    "trackPlays": [
+      {
+        "id": "27d66926-4b82-498b-bac5-b37b28d46e06",
+        "artist": "Icona Pop",
+        "track": "I Love It (feat. Charli XCX)",
+        "time": "00:25"
+      },
+      {
+        "id": "882772a8-94dd-4b95-b1f0-37e4131c4ef4",
+        "artist": "Hank Williams",
+        "track": "Hey, Good Lookin'",
+        "time": "00:20"
+      },
+      {
+        "id": "0987ed9e-b6c4-4b78-a559-b64329da8a5f",
+        "artist": "Gem",
+        "track": "Good To Know You",
+        "time": "00:15"
+      }
+    ]
+  }
+}

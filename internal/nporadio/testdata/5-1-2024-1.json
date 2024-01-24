@@ -1,0 +1,31 @@
+{
+  "pageProps": {
+    "initialValues": {
+      "date": "05-01-2024"
+    },
+    "pagination": {
+      "currentPage": 1,
+      "maxPage": 2
+    },
+    "trackPlays": [
+      {
+        "id": "51a3069e-84d8-48e8-a35c-b070075c35a3",
+        "artist": "Coldplay",
+        "track": "Clocks",
+        "time": "23:55"
+      },
+      {
+        "id": "a852921f-1453-44c7-9b88-0882c9051d83",
+        "artist": "Britney Spears",
+        "track": "Baby One More Time",
+        "time": "23:50"
+      },
+      {
+        "id": "e66de9c6-20a1-4b5a-adf6-f11ca519a970",
+        "artist": "ABBA",
+        "track": "Angeleyes",
+        "time": "23:45"
+      }
+    ]
+  }
+}

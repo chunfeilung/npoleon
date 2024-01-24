@@ -1,0 +1,31 @@
+{
+  "pageProps": {
+    "initialValues": {
+      "date": "06-01-2024"
+    },
+    "pagination": {
+      "currentPage": 2,
+      "maxPage": 2
+    },
+    "trackPlays": [
+      {
+        "id": "1287c584-4342-49d7-b07c-31b24aaa03bb",
+        "artist": "Florence + The Machine",
+        "track": "Free",
+        "time": "00:10"
+      },
+      {
+        "id": "9e916b77-e8e4-487f-a9f4-cb2028d9d2a3",
+        "artist": "Evanescence",
+        "track": "Everybody's Fool",
+        "time": "00:05"
+      },
+      {
+        "id": "ecdf7f06-8f1f-4b35-b044-f4a1d55490fb",
+        "artist": "Dua Lipa",
+        "track": "Don't Start Now",
+        "time": "00:00"
+      }
+    ]
+  }
+}

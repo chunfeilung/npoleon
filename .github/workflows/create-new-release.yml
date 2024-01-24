@@ -1,0 +1,37 @@
+name: Build Npoleon
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+
+jobs:
+  release:
+    name: Create new release
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up Go
+      uses: actions/setup-go@v4
+      with:
+        go-version: '1.21'
+        cache-dependency-path: go.sum
+
+    - name: Test
+      # Tests fail when run directly on the machine
+      run: docker run --rm -v $(pwd):/app -w /app golang:1.21 go test -v ./...
+
+    - name: Package
+      run: |
+        mkdir -p dist
+        GOOS=linux   GOARCH=amd64 go build -o dist/npoleon-amd64         .
+        GOOS=linux   GOARCH=arm64 go build -o dist/npoleon-linux-arm64   .
+        GOOS=darwin  GOARCH=amd64 go build -o dist/npoleon-darwin-amd64  .
+        GOOS=darwin  GOARCH=arm64 go build -o dist/npoleon-darwin-arm64  .
+        GOOS=windows GOARCH=amd64 go build -o dist/npoleon-windows-amd64 .
+
+    - name: Release
+      uses: softprops/action-gh-release@v1
+      with:
+        files: dist/*
